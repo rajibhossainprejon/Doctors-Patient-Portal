@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
+import BusinessInfo from '../BusinessInfo/BusinessInfo';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Navbox from '../Navbox/Navbox';
+import Navbox from '../../Shred/Navbox/Navbox';
 import './Header.css';
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
          <div className="header-container">
          <Navbox></Navbox>
          <HeaderMain></HeaderMain>
+         <BusinessInfo></BusinessInfo>
          </div>
         </Fragment>
      
